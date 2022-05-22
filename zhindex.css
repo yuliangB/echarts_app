@@ -1,0 +1,226 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 100%;
+  height: 100vh;
+  background: url(素材图/index_bg.png);
+  background-size: 100% 100%;
+}
+.content {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+}
+.left {
+  position: absolute;
+  top: 0;
+  left: 10px;
+  height: 100%;
+  width: 27%;
+  /* background: #000; */
+}
+.left .top {
+  height: 20%;
+  /* background: #000; */
+  background: url(素材图/border_bg01.png);
+  background-size: 100% 100%;
+  padding: 20px;
+}
+.left .top .title {
+  width: 35%;
+  color: #1292e7;
+  font-weight: 600;
+  margin: auto;
+  background: url(素材图/title_bg01.png);
+  background-size: 100% 100%;
+  text-align: center;
+}
+.left .top p {
+  line-height: 90px;
+  color: #fff;
+  font-size: 35px;
+  margin: auto;
+  text-align: center;
+}
+.left .mid {
+  height: 40%;
+}
+.left .mid .title {
+  color: #fff;
+  background: url(素材图/box_title.png);
+  background-size: 100% 100%;
+  line-height: 35px;
+  padding: 0 30px;
+}
+.chart1 {
+  width: 100%;
+  height: 100%;
+}
+.left .bot {
+  height: 40%;
+  /* background: #000; */
+  color: #fff;
+}
+.left .bot .gdmap {
+  width: 100%;
+  height: 100%;
+}
+.left .bot .title {
+  color: #fff;
+  background: url(素材图/box_title.png);
+  background-size: 100% 100%;
+  line-height: 35px;
+  padding: 0 30px;
+}
+.right {
+  /* background: #000; */
+  position: absolute;
+  top: 0;
+  right: 10px;
+  height: 100%;
+  width: 27%;
+}
+.right .top {
+  height: 40%;
+  /* background: #000; */
+}
+.right .top .title {
+  color: #fff;
+  background: url(素材图/box_title.png);
+  background-size: 100% 100%;
+  line-height: 35px;
+  padding: 0 30px;
+}
+.chart2 {
+  width: 100%;
+  height: 100%;
+}
+.right .mid {
+  height: 30%;
+}
+.right .mid .title {
+  color: #fff;
+  background: url(素材图/box_title.png);
+  background-size: 100% 100%;
+  line-height: 35px;
+  padding: 0 30px;
+}
+.chart3 {
+  width: 100%;
+  height: 90%;
+  text-align: center;
+  color: #fff;
+  line-height: 200px;
+  font-size: 26px;
+}
+.right .bot {
+  height: 30%;
+  /* background: #000; */
+}
+.right .bot .title {
+  color: #fff;
+  background: url(素材图/box_title.png);
+  background-size: 100% 100%;
+  line-height: 35px;
+  padding: 0 30px;
+}
+.chart4 {
+  width: 100%;
+  height: 90%;
+  color: #fff;
+  padding: 30px;
+  line-height: 50px;
+}
+.center {
+  height: 100%;
+  margin-left: 28%;
+  margin-right: 28%;
+  border-left: 2px solid #0f4972;
+  border-right: 2px solid #0f4972;
+  padding: 20px;
+}
+.center .top .title {
+  width: 100%;
+  background: url(素材图/title_border.png);
+  background-size: 100% 100%;
+  text-align: center;
+  color: #c2d8f5;
+  padding-bottom: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.center .top .title .imgbox {
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+}
+.center .top .title .imgbox img {
+  width: 100%;
+  height: 100%;
+}
+h1 {
+  display: inline-block;
+}
+.top_c {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.top_c_l {
+  width: 50%;
+  height: 90px;
+  border: 1px solid #0e7dc6;
+  margin-top: 10px;
+  color: #ccc;
+  padding: 10px 0;
+  display: flex;
+}
+.ll {
+  width: 50%;
+  text-align: center;
+  border-right: 3px solid #ccc;
+  line-height: 26px;
+}
+.top_c_l span {
+  font-size: 24px;
+}
+.top_c_l p {
+  font-size: 12px;
+}
+.rr {
+  display: flex;
+  padding: 5px;
+}
+.txt span {
+  color: #fff;
+  font-size: 16px;
+}
+.txt p {
+  font-size: 12px;
+}
+.top_c_r {
+  width: 45%;
+}
+.top_c_r b {
+  color: #76efbc;
+}
+.top_c_r .yellow {
+  color: yellow;
+}
+.top_c_r .green {
+  color: green;
+}
+.continer {
+  text-align: center;
+  color: #fff;
+  padding: 30px;
+  height: 79%;
+}
+.chart5 {
+  width: 100%;
+  height: 100%;
+}

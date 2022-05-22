@@ -1,0 +1,371 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+.box{
+    width: 100%;
+    height: 100vh;
+    background: url(./yqimgs/bg.jpg);
+    background-size: 100% 100%;
+    padding: 0 30px 30px;
+    header{
+        color: #fff;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        height: 60px;
+        align-items: center;
+        padding: 0 40px;
+
+        ul{
+            display: flex;
+            li{
+                width: 96px;
+                height: 30px;
+                background: url(./yqimgs/bnt.png);
+                background-size: 100% 100%;
+                text-align: center;
+                line-height: 30px;
+                margin: 0 5px;
+            }
+        }
+        .l,.r{
+            margin-top: 50px;
+        }
+    }
+    .container{
+        margin-top: 20px;
+        height: 90%;
+        .left,.center,.right{
+            height: 100%;
+            float: left;
+        }
+        .left{
+            width: 37%;
+            .top{
+                width: 100%;
+                height: 33%;
+                background: url(./yqimgs/pulefttop.png);
+                background-size: 100% 100%;
+                color: #fff;
+                font-size: 14px;
+                .title{
+                    padding-left: 100px;
+                    line-height: 30px;
+                }
+                .txt{
+                    width: 100%;
+                    display: flex;
+                    justify-content: space-between;
+                    padding: 0 30px;
+                }
+                .content{
+                    width: 100%;
+                    height: 75%;
+                    display: flex;
+                    justify-content: space-around;
+                    .l, .r{
+                        width: 48%;
+                        height: 100%;
+                       background: rgba(2, 54, 108,0.5);
+                       .chart1{
+                           width: 100%;
+                           height: 100%;
+                       }
+                    }
+                    .r{
+                        .chart2{
+                            width: 100%;
+                            height: 100%;
+                        }
+                    }
+                }
+            }
+            .mid{
+                width: 100%;
+                height: 33%;
+                background: url(./yqimgs/puleftmidd.png);
+                background-size: 100% 100%;
+                color: #fff;
+                font-size: 14px;
+                .title{
+                  text-align: center;
+                    line-height: 30px;
+                }
+                .txt{
+                    width: 100%;
+                    display: flex;
+                    justify-content: space-between;
+                    padding: 0 30px;
+                }
+                .content{
+                    width: 100%;
+                    height: 75%;
+                    display: flex;
+                    justify-content: space-around;
+                    .l, .r{
+                        width: 48%;
+                        height: 100%;
+                       background: rgba(2, 54, 108,0.5);
+                       .chart3{
+                           width: 100%;
+                           height: 100%;
+                       }
+                    }
+                    .r{
+                        .chart4{
+                            width: 100%;
+                            height: 100%;
+                        }
+                    }
+                }
+            }
+            .bot{
+                width: 100%;
+                height: 33%;
+                background: url(./yqimgs/puleftmidd.png);
+                background-size: 100% 100%;
+                color: #fff;
+                font-size: 14px;
+                .title{
+                  text-align: center;
+                    line-height: 30px;
+                }
+                .txt{
+                    width: 100%;
+                    display: flex;
+                    justify-content: space-between;
+                    padding: 0 30px;
+                }
+                .content{
+                    width: 100%;
+                    height: 75%;
+                    display: flex;
+                    justify-content: space-around;
+                    .l, .r{
+                        width: 65%;
+                        height: 100%;
+                       background: rgba(2, 54, 108,0.5);
+                       .chart5{
+                           width: 100%;
+                           height: 100%;
+                       }
+                    }
+                    .r{
+                        width: 33%;
+                     text-align: center;
+                     b{
+                         font-size: 20px;
+                         &:nth-of-type(1){
+                             color: pink;
+                         }
+                         &:nth-of-type(2){
+                             color: skyblue;
+                         }
+                         &:nth-of-type(3){
+                             color: yellow;
+                         }
+                     }
+                     p{
+                         color: #ccc;
+                         font-size: 12px;
+                         &:nth-of-type(1){
+                            font{
+                                color: red;
+                            }
+                           
+                        }
+                        &:nth-of-type(2){
+                            font{
+                                color: greenyellow;
+                            }
+                          
+                        }
+                        &:nth-of-type(3){
+                            font{
+                                color: greenyellow;
+                            }
+                           
+                        }
+                     }
+                 
+                    }
+                }
+            }
+        }
+        .center{
+            width: 35%;
+            .content{
+                height: 66%;
+                display: flex;
+                justify-content: space-around;
+                .content_l, .content_r{
+                    width: 49%;
+                    background: url(./yqimgs/left1box.png);
+                    background-size: 100% 100%;
+                    color: #fff;
+                    padding: 0 20px;
+                    .title{
+                        text-align: center;
+                        line-height: 30px;
+                        font-size: 14px;
+                    }
+                    .txt{
+                        width: 100%;
+                        display: flex;
+                        justify-content: space-between;
+                        font-size: 10px;
+                    }
+                }
+                .content_l{
+                    height: 100%;
+                 ul{
+                    height: 88%;
+                     display: flex;
+                     flex-wrap: wrap;
+                     justify-content: space-between;
+                     li{
+                         width: 48%;
+                         height: 48%;
+                         background: rgba(2, 54, 108,0.5);
+                         text-align: center;
+                         font-size: 12px;
+                         line-height: 30px;
+                         padding-top: 30px;
+                         b{
+                             font-size: 22px;
+                         }
+                         font{
+                             font-size: 16px;
+                         }
+                         &:nth-of-type(1){
+                             b{
+                                 color: pink;
+                             }
+                             font{
+                                 color: red;
+                             }
+                         }
+                         &:nth-of-type(2){
+                             b{
+                                 color: skyblue;
+                             }
+                             font{
+                                 color: forestgreen;
+                             }
+                         }
+                         &:nth-of-type(3){
+                             b{
+                                 color: yellow;
+                             }
+                             font{
+                                 color: forestgreen;
+                             }
+                         }
+                         &:nth-of-type(4){
+                             b{
+                                 color: pink;
+                             }
+                             font{
+                                 color: red;
+                             }
+                         }
+                     }
+                 }
+                }
+                .content_r{
+                    ul{
+                        li{
+                            display: flex;
+                            font-size: 12px;
+                            background: rgba(2, 54, 108,0.5);
+                            padding: 2px;
+                            line-height: 16px;
+                        }
+                    }
+                }
+            }
+            .bot{
+                height: 33%;
+                background: url(./yqimgs/puleftmidd.png);
+                 background-size: 100% 100%;
+                 color: #fff;
+                 padding: 0 20px;
+                 .title{
+                    text-align: center;
+                    line-height: 30px;
+                    font-size: 14px;
+                }
+                .txt{
+                    width: 100%;
+                    display: flex;
+                    justify-content: space-between;
+                    font-size: 10px;
+                    line-height: 16px;
+                }
+                 .bot_cont{
+                    display: flex;
+                    justify-content: space-between;
+                    height: 76%;
+                    .bot_l,.bot_r{
+                        height: 100%;
+                        width: 66%;
+                        background: rgba(2, 54, 108,0.5);
+                       .chart6{
+                           width: 100%;
+                           height: 100%;
+                       }
+                    }
+                    .bot_r{
+                        width: 33%;
+
+                        background: rgba(2, 54, 108,0.5);
+                        text-align: center;
+                        font-size: 12px;
+                        line-height: 30px;
+                        padding-top: 30px;
+                        b{
+                            font-size: 22px;
+                            color: pink;
+                        }
+                        font{
+                            font-size: 16px;
+                            color: red;
+                        }
+                    }
+                 }
+                
+            }
+        }
+        .right{
+            width: 28%;
+            height: 100%;
+            .top,.mid,.bot{
+                height: 33%;
+                background: url(./yqimgs/puleftmidd.png);
+                background-size: 100% 100%;
+                color: #fff;
+                padding: 0 20px;
+                .title{
+                   text-align: center;
+                   line-height: 30px;
+                   font-size: 14px;
+               }
+               .txt{
+                   width: 100%;
+                   display: flex;
+                   justify-content: space-between;
+                   font-size: 10px;
+                   line-height: 16px;
+               }
+               .chart7,.chart8,.chart9{
+                   width: 100%;
+                   height: 78%;
+                   background: rgba(2, 54, 108,0.5);
+               }
+            }
+        }
+    }
+}
